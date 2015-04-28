@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">myapp150427</string>
+    <string name="search_name">发现</string>
+    <string name="down_name">下载</string>
+    <string name="ting_name">定制听</string>
+    <string name="my_name">我</string>
+
+</resources>

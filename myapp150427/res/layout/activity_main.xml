@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+        <RadioButton
+                android:id="@+id/rabt01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radionbutton01_bg"
+                android:text="@string/search_name"
+                android:textColor="#272727"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+
+                />
+
+        <RadioButton
+                android:id="@+id/rabt02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radionbutton02_bg"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="@string/down_name"
+                android:textColor="#272727"
+                />
+        <RadioButton
+                android:id="@+id/rabt03"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radionbutton03_bg"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="@string/ting_name"
+                android:textColor="#272727"
+                />
+
+        <RadioButton
+                android:id="@+id/rabt04"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/selector_radionbutton04_bg"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:includeFontPadding="true"
+                android:text="@string/my_name"
+                android:textColor="#272727"
+                android:checked="false"
+                />
+
+
+
+    </RadioGroup>
+</RelativeLayout>
+
